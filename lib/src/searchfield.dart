@@ -420,7 +420,7 @@ class _SearchFieldState<T> extends State<SearchField<T>> {
             alignment: Alignment.centerLeft,
             decoration: widget.suggestionsDecoration ??
                 BoxDecoration(
-                  color: Theme.of(context).colorScheme.surface,
+                  color: Colors.pink, //Theme.of(context).colorScheme.surface,
                   boxShadow: [
                     BoxShadow(
                       color: onSurfaceColor.withOpacity(0.1),
